@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.experience-wrapper {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.profile-strength-wrapper {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}

@@ -1,0 +1,57 @@
+.main_box {
+  margin-top: 10px;
+}
+.MuiSvgIcon-root {
+  margin-right: 25px;
+}
+.subtitle_feed,
+.subtitle_feed span {
+  background-color: white;
+}
+.subtitle_feed {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+  padding-left: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.footer_feed span {
+  background-color: white;
+}
+.footer_feed {
+  width: 100% !important;
+  background-color: white;
+  padding-left: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.follower_header {
+  font-size: medium;
+  background-color: white;
+  padding: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #252525;
+  padding-left: 15px;
+}
+.follower_header > h5,
+.follower_header > InfoIcon {
+  background-color: white;
+}
+.recommendations {
+  background-color: white;
+  margin-left: 15px;
+  color: black;
+  cursor: pointer;
+}
+.adv {
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 0;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}

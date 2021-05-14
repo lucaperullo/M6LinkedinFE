@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.likes-wrapper {
+  margin-top: 2px;
+  margin-left: 10px;
+}
+.like {
+  height: 25px;
+}
+.celebrate {
+  height: 25px;
+}
+.support {
+  height: 25px;
+}
+.love {
+  height: 25px;
+}
+.insightful {
+  height: 25px;
+}
+.curious {
+  height: 25px;
+}
+.who-liked {
+  position: relative;
+  top: 5px;
+  font-size: 12px;
+  color: #496aff;
+  cursor: pointer;
+}
+.post-wrapper {
+  contain: content;
+  background-color: rgb(252, 249, 250);
+  text-overflow: clip;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid rgba(211, 211, 211, 0.452);
+  border-radius: 10px;
+}
+
+.post-header-wrapper {
+  display: flex;
+}
+
+.profilePic-wrapper:hover {
+  cursor: pointer;
+}
+
+.name-and-description-wrapper {
+  margin-left: 10px;
+}
+.name-and-description-wrapper h5 {
+  font-size: 16px;
+}
+.name-and-description-wrapper h5:hover {
+  cursor: pointer;
+}
+.name-and-description-wrapper p {
+  font-size: 12px;
+}
+
+.postImage-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.post-body {
+  text-align: left;
+  contain: content;
+}
+
+.sel {
+  position: absolute !important;
+  top: -70px;
+}
+
+.momentpos {
+  font-size: 12px;
+  color: #5d5d5d;
+  position: relative;
+  top: -60px;
+  left: 380px;
+}
+@media only screen and (max-width: 767px) {
+  .reactions-wrapper {
+    margin: 10px;
+  }
+  .post-body {
+    width: 100%;
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 1226px) {
+  .momentpos {
+    left: 360px;
+  }
+}
+@media only screen and (max-width: 1172px) {
+  .momentpos {
+    left: 340px;
+  }
+}
+@media only screen and (max-width: 1118px) {
+  .momentpos {
+    left: 320px;
+  }
+}
+@media only screen and (max-width: 1068px) {
+  .momentpos {
+    left: 300px;
+  }
+}
+@media only screen and (max-width: 1032px) {
+  .momentpos {
+    left: 250px;
+  }
+}
+@media only screen and (max-width: 917px) {
+  .momentpos {
+    left: 220px;
+  }
+}
+@media only screen and (max-width: 916px) {
+  .momentpos {
+    left: 500px;
+  }
+}
+@media only screen and (max-width: 706px) {
+  .momentpos {
+    left: 240px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .momentpos {
+    left: 200px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .momentpos {
+    left: 180px;
+  }
+}

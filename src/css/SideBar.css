@@ -1,0 +1,105 @@
+#profileWrapper {
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-top: 10.4px;
+}
+
+.card,
+.links {
+  border: 1px solid rgba(211, 211, 211, 0.452);
+  border-radius: 10px;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.card {
+  text-align: left;
+}
+
+.imageWrapper {
+  position: relative;
+  display: inline;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.452);
+  line-height: 0.7;
+}
+
+.imageWrapper p {
+  font-weight: 700;
+}
+
+.imageWrapper > :last-child {
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+#cardTop {
+  height: 3rem;
+  background-color: rgb(171, 193, 202);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#idImage {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid rgba(211, 211, 211, 0.452);
+  overflow: hidden;
+}
+
+#idImage img {
+  width: 80px;
+  height: 80px;
+  object-fit: fill;
+  /* object-fit: contain; */
+}
+
+#network {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1;
+}
+
+#premium {
+  line-height: 1;
+  padding: 1rem 0 1rem;
+}
+
+#premium:last-child p {
+  font-weight: 700;
+}
+
+.links {
+  list-style-type: none;
+  background-color: white;
+  color: blue;
+}
+
+#bookmark {
+  margin-right: 0;
+}
+
+.links li {
+  cursor: pointer;
+}
+
+.links > :first-child {
+  padding: 0 0.8rem 0 0.8rem;
+  text-align: left;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.452);
+  margin-bottom: 3px;
+}
+.links > :last-child {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.links > :last-child::hover {
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+}

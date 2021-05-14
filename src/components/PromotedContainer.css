@@ -1,0 +1,38 @@
+.promoted-wrapper {
+  margin: 10px auto;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.promoted-items {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.promoted-item-body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.promoted-item-image {
+  display: flex;
+  justify-content: center;
+}
+
+.promoted-item-image img {
+  width: 40%;
+}
+
+.promoted-item-text {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.promoted-item-link {
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+}

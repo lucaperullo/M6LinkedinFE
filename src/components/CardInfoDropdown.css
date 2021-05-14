@@ -1,0 +1,41 @@
+.viewprofile_button_contact {
+  background-color: transparent !important;
+  color: gray !important;
+  border: 2px solid gray !important;
+  border-radius: 50px !important;
+  width: 100px !important;
+  height: 30px;
+  padding: 0 !important;
+}
+.viewprofile_button_contact:hover {
+  background-color: rgba(89, 89, 98, 0.274) !important;
+  border-color: rgb(65, 63, 63) !important;
+  color: gray !important;
+}
+
+.options_icon {
+  object-fit: contain;
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.button_link {
+  text-decoration: none;
+}
+
+.button_link:link {
+  text-decoration: none;
+}
+
+.button_link:visited {
+  text-decoration: none;
+}
+
+.button_link:hover {
+  text-decoration: none;
+  color: black !important;
+}
+
+.button_link:active {
+  text-decoration: none;
+}

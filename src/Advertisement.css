@@ -1,0 +1,24 @@
+.wrapper {
+  position: fixed;
+}
+
+.add {
+  height: 300px;
+  background-size: cover;
+  background-image: url("/src/add.png");
+  background-position: center center;
+}
+.ul_list ul {
+  flex-wrap: wrap;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.ul_list ul li {
+  margin-right: 25px;
+  font-size: 80%;
+}
+.ul_list ul li a {
+  text-decoration: none;
+  color: gray;
+}

@@ -1,0 +1,30 @@
+.list_course ul,
+.list_course li,
+.list_course small,
+.recommendations {
+  padding-left: 10px;
+  list-style-type: none;
+  background-color: white;
+  margin: 0;
+}
+.list_course {
+  width: 100%;
+  margin-top: 15px;
+}
+.follower_header {
+  padding-left: 10px;
+  font-size: medium;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.list_course ol {
+  margin-bottom: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.list_course ul {
+  margin-bottom: 10px;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

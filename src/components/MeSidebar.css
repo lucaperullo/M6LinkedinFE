@@ -1,0 +1,20 @@
+.main-wrapper {
+  margin: 20px 0;
+}
+
+.top-container-wrapper {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.top-container-item {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 916px) {
+  .addvertisment {
+    display: none;
+  }
+}

@@ -1,0 +1,37 @@
+.experience-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: white;
+}
+
+/* .experience-item:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+} */
+
+.experience-item-text {
+  text-align: left;
+  line-height: 0.8;
+}
+
+.experience-item-image img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.experience-item-edit-icon {
+  display: none;
+}
+
+.experience-item:hover .experience-item-edit-icon {
+  display: block;
+}
+
+.experience-item-edit-icon:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: lavenderblush;
+  border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+.personal-dashboard-wrapper {
+  border-radius: 10px;
+  background-color: #dce6f0;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.personal-dashboard-stats-wrapper {
+  text-align: left;
+  display: flex;
+  flex: 1;
+  padding: 5px;
+  font-size: 0.9rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.stats-div {
+  border-right: 1px solid lightskyblue;
+}
+
+.stat-div:hover {
+  text-decoration: underline;
+}
+
+.personal-dashboard-my-items-wrapper {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  line-height: 0.8;
+}
+
+.personal-dashboard-my-items-wrapper:hover {
+  text-decoration: underline;
+}
